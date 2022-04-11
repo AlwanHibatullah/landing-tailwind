@@ -20,7 +20,7 @@
 
   <body class="font-quicksand">
     <!-- Navbar start -->
-    <nav class="bg-transparent px-2 py-2.5 sticky">
+    <nav class="bg-transparent px-2 py-2.5 fixed w-full top-0 z-10">
       <div
         class="container flex flex-wrap justify-between items-center mx-auto"
       >
@@ -73,7 +73,7 @@
 
     <!-- Hero Section start -->
     <section>
-      <div class="container max-w-3xl max-h-full mx-auto px-6 py-3">
+      <div class="container max-w-3xl max-h-full mx-auto px-6 py-8">
         <div class="flex flex-col sm:flex-row items-center gap-6 pt-6">
           <div class="w-full h-full px-4">
             <img src="../assets/logo.svg" alt="" />
@@ -101,17 +101,17 @@
 
     <!-- About Section start -->
     <section>
-      <div class="bg-[#eeeeee] py-6">
-        <h1 class="text-center text-3xl font-bold text-slate-800">
+      <div class="bg-[#eeeeee] py-8">
+        <h1 class="text-center text-3xl font-bold text-slate-800 mb-8">
           TENTANG KAMI
         </h1>
         <div class="container max-w-3xl mx-auto">
-          <div class="flex flex-col items-center pt-6 gap-4">
-            <div class="w-full h-full px-4">
+          <div class="flex flex-col items-center gap-6">
+            <div class="w-10/12 h-10/12 px-4 mx-auto">
               <img src="../assets/logo.svg" alt="" />
             </div>
-            <div class="px-4">
-              <p class="text-lg">
+            <div class="px-6 mx-auto">
+              <p class="text-lg text-justify">
                 TIK Studio Karawang merupakan sebuah UMKM yang bergerak di
                 bidang jasa dan layanan, khususnya pada layanan jasa design
                 grafis. Kami menyediakan jasa-jasa seperti pembuatan CV, pas
@@ -123,5 +123,101 @@
       </div>
     </section>
     <!-- About Section end -->
+
+    <!-- Services section start -->
+    <section>
+      <div class="py-8 px-2">
+        <h1 class="text-center text-3xl font-bold text-slate-800 mb-8">
+          LAYANAN KAMI
+        </h1>
+        <div class="container max-w-3xl">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="flex flex-col mx-auto items-center gap-1">
+              <div
+                class="h-20 bg-yellow-300 rounded-full aspect-square flex items-center"
+              >
+                <img src="../assets/CV.svg" alt="CV" class="h-10 mx-auto" />
+              </div>
+              <h5 class="font-bold text-lg">CV</h5>
+            </div>
+            <div class="flex flex-col mx-auto items-center gap-1">
+              <div
+                class="h-20 bg-yellow-300 rounded-full aspect-square flex items-center"
+              >
+                <img
+                  src="../assets/spanduk icon.svg"
+                  alt="CV"
+                  class="h-10 mx-auto"
+                />
+              </div>
+              <h5 class="font-bold text-lg">Spanduk</h5>
+            </div>
+            <div class="flex flex-col mx-auto items-center gap-1">
+              <div
+                class="h-20 bg-yellow-300 rounded-full aspect-square flex items-center"
+              >
+                <img
+                  src="../assets/Logo Icon.svg"
+                  alt="CV"
+                  class="h-10 mx-auto"
+                />
+              </div>
+              <h5 class="font-bold text-lg">Logo</h5>
+            </div>
+            <div class="flex flex-col mx-auto items-center gap-1">
+              <div
+                class="h-20 bg-yellow-300 rounded-full aspect-square flex items-center"
+              >
+                <img
+                  src="../assets/Name card icon.svg"
+                  alt="CV"
+                  class="h-10 mx-auto"
+                />
+              </div>
+              <h5 class="font-bold text-lg">Pas Photo</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section end -->
+
+    <!-- Contact section start -->
+    <section>
+      <div class="container w-full py-8 bg-yellow-100">
+        <h1 class="text-center text-3xl font-bold text-slate-800 mb-8">
+          KONTAK KAMI
+        </h1>
+        <div
+          class="container max-w-3xl flex flex-col md:flex-row items-center mx-auto gap-4"
+        >
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="../assets/facebook icon.svg"
+              alt="Facebook"
+              class="h-16"
+            />
+            <span class="text-base font-semibold">TIK Studio Karawang</span>
+          </div>
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="../assets/instagram icon.svg"
+              alt="Instagram"
+              class="h-16"
+            />
+            <span class="text-base font-semibold">@tstudio21</span>
+          </div>
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="../assets/whats app icon.svg"
+              alt="Whatsapp"
+              class="h-16"
+            />
+            <span class="text-base font-semibold">+62838xxxxxxxx</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section start -->
   </body>
 </html>
